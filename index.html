@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Convertidor de temperatura</title>
+</head>
+<body>
+    <main class="container">
+        <h1>Convertidor de Temperatura</h1>
+
+            <div class="container_sections">
+                <input class="input_value" type="text"  id="tempinicial" >
+                    <div class="container_covertir">
+                        <input type="radio" name="temp" id="f-c">
+                        <label for="f-c">F - C</label>   
+                    </div>
+                    <div class="container_covertir">
+                        <input type="radio" name="temp" id="c-k">
+                        <label for="c-f">C - F</label>
+                    </div>
+                    <div class="calcular" id="tempfinal"></div>
+                    <button class="btn" name="button" id="boton">Convertir</button>
+                </div>
+
+
+                <section class="container_barra">
+                    <div class="conntainer_grados" id="gradostext"></div>
+                    <div class="container_barra_conversion">
+                        <div class="contenedor_barrafinal" id="barra">
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+    <script src="jesid.js"></script>
+</body>
+</html>
