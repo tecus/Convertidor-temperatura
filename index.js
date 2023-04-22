@@ -21,9 +21,9 @@ boton.addEventListener('click',() =>{
 
 function alert(){
     Swal.fire({
-        title: '¡Hola, a todos!',
-        text: 'ingresaste datos incorrectos o incompletos',
+        title: '¡Datos incorrectos!',
+        text: 'Ingresaste datos incorrectos o incompletos',
         icon: 'error',
-        confirmButtonText: '¡cerrar!',
+        confirmButtonText: 'cerrar',
     })
 }
